@@ -1,0 +1,45 @@
+
+.main_section {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.home_bloc {
+    display: inline-flex;
+    vertical-align: middle;
+    //background-color: blueviolet;
+    white-space: pre-wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.home_bloc_contener {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    max-width: 1500px;
+}
+
+.home_bloc_contener_main {
+    flex-direction: row-reverse;
+}
+
+.home_bloc img {
+    border-radius: 500px;
+    //width: 60%;
+    max-width: 500px;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .home_bloc img{
+        display:none; 
+    }
+}

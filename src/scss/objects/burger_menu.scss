@@ -1,0 +1,60 @@
+
+
+.burger
+{
+    appearance:none;
+    color:inherit;
+    cursor:pointer;
+    position:absolute;
+    top:3em;
+    z-index: 5;
+    outline: none;
+}
+
+.burger:before
+{
+    content:'';
+    width: 50px;
+    font-size: 1em;
+    padding: 2em;
+    background : url(burgeur.svg) no-repeat;
+    position: relative;
+    right: 5px;
+}
+
+.burger:checked:before
+{
+    content:'';
+    width: 50px;
+    font-size: 1em;
+    padding: 2em;
+    background : url(../img/close.svg) no-repeat;
+    position: relative;
+    right: 5px;
+}
+
+.menu
+{
+    transition: .2s;
+    position: relative;
+    transition: transform .3s ease-out;
+}
+
+
+
+.burger:checked ~ main .menu {
+    transform: translateX(180px);
+}
+
+.menu {
+    transform: translateX(0);
+}
+
+
+.burger:checked ~ .side_bar .main_menu {
+    transform: translateX(-1rem);
+}
+
+.main_menu {
+    transform: translateX(0);
+}

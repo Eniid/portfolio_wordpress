@@ -1,0 +1,30 @@
+//* Font adobe 
+@import url("https://use.typekit.net/etd4ley.css");
+@import url("https://use.typekit.net/etd4ley.css");
+
+
+
+//* CSS =) 
+@import "scss/settings.scss"; 
+@import "scss/tools.scss"; 
+@import "scss/generic.scss"; 
+@import "scss/elements/elements.scss";
+@import "scss/objects/objects.scss"; 
+@import "scss/components/components.scss"; 
+@import "scss/utilities.scss"; 
+
+
+
+
+
+
+.main_section {
+    background-color: #fff;
+    position: fixed;
+    top : 0.25em; 
+    left:  3em;
+    height: 100%;
+    width: 100%;
+    border-radius: 1em 0 0 0;
+}
+

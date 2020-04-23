@@ -1,0 +1,39 @@
+nav {
+    color: #fff;
+    padding-left: 3em;
+    margin-top: 300px;
+}
+
+nav li {
+    padding: 1em;
+}
+
+nav a {
+    color: #fff;
+    padding: 1em;
+    background: none;
+}
+
+nav a:hover {
+    background: none;
+    color: #fff;
+}
+
+
+nav .nav_curent_page {
+    background-color: #fff;
+    border-radius: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 15em;
+    padding-left: 2em;
+    color: #000;
+}
+
+nav .nav_curent_page:hover{
+    background-color: #fff;
+    border-radius: 1em;
+    padding-right: 15em;
+    padding-left: 2em;
+    color: #000;
+}

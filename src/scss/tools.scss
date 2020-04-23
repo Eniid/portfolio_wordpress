@@ -1,0 +1,60 @@
+//mixines et truc comme ça
+
+//* Mixines de font =)
+
+//* Polices 
+
+// Police de titre [RiftSoft} 
+@mixin hfi {
+    // title font italic
+    font-family: rift-soft, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+} 
+
+@mixin hfr {
+    // title font regular
+    font-family: rift-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+@mixin hfb {
+    // title font BOLD
+    font-family: rift-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+
+
+// Police de texte [ProximaSoft} 
+@mixin tfi {
+    // text font italic
+    font-family: proxima-soft, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+} 
+
+@mixin tfr {
+    // text font regular
+    font-family: proxima-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+@mixin tfb {
+    // text font BOLD
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+@mixin tfl {
+    // text font BOLD
+    font-family: proxima-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+// pour les utiliser : @include ***;
