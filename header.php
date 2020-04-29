@@ -7,11 +7,13 @@
     wp_head();
     ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/dist/app.css" media="all" />
-    <title>Document</title>
+    <title><?= pf_get_title('|', true) ?></title>
+
 </head>
 <body>
-<h1>Portfolio de Céline! </h1>
+<h1><?= pf_get_title(',', false) ?></h1>
 
+<?php wp_nav_menu(); ?>
 
 <input class="burger" type="checkbox">
 <div class="side_bar"> 

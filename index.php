@@ -11,7 +11,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </div>
                 <div class="home_bloc_contener_img">
-                    <img src="<?php bloginfo('template_url'); ?>/img/moi_acceuil.png" alt="" height='500' width='500'>
+                    <img src="<?= pf_get_theme_asset('img/moi_acceuil.png') ?>" alt="" height='500' width='500'>
                 </div>
 
             </div>

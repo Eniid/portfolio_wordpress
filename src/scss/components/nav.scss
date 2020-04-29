@@ -1,39 +1,39 @@
-nav {
+.menu-main-container {
     color: #fff;
     padding-left: 3em;
     margin-top: 300px;
+    text-transform: uppercase;
 }
 
-nav li {
+.menu-main-container li {
     padding: 1em;
 }
 
-nav a {
+.menu-main-container a {
     color: #fff;
     padding: 1em;
     background: none;
 }
 
-nav a:hover {
+.menu-main-container a:hover {
     background: none;
     color: #fff;
 }
 
 
-nav .nav_curent_page {
+.menu-main-container .menu-item-19 {
     background-color: #fff;
-    border-radius: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-right: 15em;
-    padding-left: 2em;
+    border-radius: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 15rem;
+    padding-left: 2rem;
     color: #000;
 }
 
-nav .nav_curent_page:hover{
+.menu-main-container .menu-item-19:hover{
     background-color: #fff;
-    border-radius: 1em;
-    padding-right: 15em;
-    padding-left: 2em;
+    border-radius: 1rem;
+    padding-right: 15rem;
+    padding-left: 2rem;
     color: #000;
 }
