@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27">
-  <g id="Groupe_29" data-name="Groupe 29" transform="translate(-374 -120)">
-    <line id="Ligne_23" data-name="Ligne 23" x2="26" transform="translate(376.5 122.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
-    <line id="Ligne_24" data-name="Ligne 24" x2="26" transform="translate(376.5 133.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
-    <line id="Ligne_25" data-name="Ligne 25" x2="26" transform="translate(376.5 144.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27"><g id="Groupe_29" data-name="Groupe 29" transform="translate(-374 -120)"><line id="Ligne_23" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" data-name="Ligne 23" transform="translate(376.5 122.5)"/><line id="Ligne_24" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" data-name="Ligne 24" transform="translate(376.5 133.5)"/><line id="Ligne_25" x2="26" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" data-name="Ligne 25" transform="translate(376.5 144.5)"/></g></svg>
