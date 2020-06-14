@@ -1,0 +1,138 @@
+.dark {
+    .main_section {
+        background-color: $dm;
+    }
+
+    h2 {
+        color: $hcl;
+    }
+
+    .home_bloc_contener_img {
+        opacity: .5;
+    }
+
+    .cv .cta{
+        border: #fff 1px solid !important;
+        color: #fff !important;
+    }
+
+
+    .main_cta_btn {
+        color: $dm ;
+    }
+
+    .burger:before {
+    content: "";
+    width: 50px;
+    font-size: 1em;
+    padding: 2em;
+    background: url(../img/dmbm.svg) no-repeat;
+    background-size: 1.6rem;
+    position: relative;
+    right: -0.3rem;
+    top: 2rem;
+    transition: transform 0.3s ease-out;
+    }
+
+    .burger:checked:before {
+        content: "";
+        width: 50px;
+        font-size: 1em;
+        padding: 2em;
+        background: url(../img/dmc.svg) no-repeat;
+        background-size: 1.3rem;
+        position: relative;
+        right: -11rem;
+        top: 0rem;
+        transition: transform 0.3s ease-out;
+    }
+
+    .menu-main-container .current-menu-item {
+        background-color: $dm;
+    }
+    .menu-main-container .current-menu-item a {
+        color: #fff;
+    }
+
+    .nav_bar_link {
+        color:$dm;
+    }
+
+    .nav_bar_link_contner {
+        background-color: $dm;
+    }
+
+    .form {
+        background-color: #353535;
+    }
+
+    .form input {
+        background-color: #353535;
+        border-bottom: #ffffffad 1px solid;
+        color: #fff;
+    }
+
+    .form_title {
+        background: linear-gradient(45deg, #ABCBCE, #D6F0F2);
+
+        color: $dm;
+
+    }
+
+
+    .form .form_button {
+        background: linear-gradient(45deg, #ABCBCE, #D6F0F2);
+        color: $dm;
+    }
+
+
+
+    .ins .cta {
+        color: #F2C50C !important;
+        border-color: #F2C50C !important;
+    }
+
+    .ins .main_cta_btn {
+        color: $dm !important;
+    }
+
+
+
+        .form_title::before {
+            content: "";
+            width: 50px;
+            font-size: 1em;
+            padding: 2em;
+            background: url(../img/dmc.svg) no-repeat;
+            background-size: 1.3rem;
+            position: absolute;
+            right: -4.6rem;
+            top: 1rem;
+            transition: transform 0.3s ease-out;
+            z-index: 10;
+        }
+
+    
+
+    .form textarea {
+        background-color: #353535;
+        border-bottom: #ffffffad 1px solid;
+        color: #fff;
+    }
+
+    .form input::placeholder {
+        color: #ffffff82 ;
+    }
+
+    .form textarea::placeholder {
+        color: #ffffff82 ;
+    }
+
+
+
+    color: #fff;
+}
+
+.slide.round {
+    user-select: none;
+}

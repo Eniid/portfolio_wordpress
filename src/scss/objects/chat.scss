@@ -1,0 +1,108 @@
+
+
+.form {
+    position: fixed;
+    right: 5rem;
+    bottom: 2rem;
+    width: 18rem;
+    z-index: 2000;
+}
+
+
+@media screen and (max-width: 640px) {
+    .form {
+        right: 2rem;
+        bottom: 5rem;
+    }
+}
+
+.form p {
+    margin: auto ;
+}
+
+//* Open pic 
+.chat_pic {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 4rem;
+}
+
+
+//* Button 
+
+.form .form_button {
+    position: absolute;
+    bottom: 1rem; 
+    width: 15.8rem;
+    padding: .5rem;
+}
+
+
+//* Display none of contact form 7 elements 
+.wpcf7-response-output {
+    position: absolute !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+}
+
+
+
+//* feedback 
+span.wpcf7-not-valid-tip {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    display: block;
+}
+
+
+//! Open // Close
+.form {
+    transform: scale(0);
+    transform-origin: right bottom;
+    transition: transform .3s ease-out;
+}
+
+
+.chat_input:checked ~ .form {
+    transform: scale(1);
+    transition: transform .3s ease-in;
+}
+
+//* Checkbox 
+.chat_input {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 10000;
+    opacity: 0;
+}
+
+.chat_input:checked {
+    right: 5rem;
+    bottom: 25rem;
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 640px) { 
+    .chat_input:checked {
+        right: 2rem;
+        bottom: 27rem;
+    }
+}
+
+
+.chat_close {
+    position: relative;
+    left: 7rem;
+    top: .05rem;
+    width: 1rem;
+}

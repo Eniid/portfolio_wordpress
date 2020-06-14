@@ -1,0 +1,32 @@
+
+.project_palette div {
+    border-radius: 10rem;
+
+    font-size: .75rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+.project_palette img {
+    border-radius: 10rem;
+
+    font-size: .75rem;
+    text-align: center;
+    color: #fff;
+}
+
+
+//* Texte 
+.project_palette span {
+    opacity: 0;
+    transition: .5s;
+}
+.project_palette div:hover {
+    background-color: #444444 !important;
+
+    span {
+        opacity: 1;
+        transition: .5s;
+    }
+}

@@ -1,3 +1,32 @@
-// tout les trucs particlier // les composents du sites
+//* Basic CTA 
+
+.cta {
+    border-radius: 1rem;
+    background-color: #fff;
+    background: none;
+    font-size: .75rem;
+    border: $mcd 1px solid;
+    color: $mcd;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    box-shadow: -1px 1px 7px 0px #0000001f;
+    transform: scale(1.05);
+}
 
 
+
+//* Main CTA
+
+.main_cta_btn {
+    background: linear-gradient(90deg, #F99B96, #DA6A74);
+    border: none;
+    color: #fff;
+}
+
+
+.main_cta_btn:hover {
+    box-shadow: -1px 1px 7px 0px #0000001f;
+    transform: scale(1.05);
+}

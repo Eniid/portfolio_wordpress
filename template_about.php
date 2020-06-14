@@ -4,35 +4,36 @@
 
 <?php get_header() ?>
 
-<main>
-    <div class="main_section">
+<?php 
+if ( have_posts() ): while ( have_posts() ): the_post(); ?>
 
-
-        <?php 
-            if ( have_posts() ): while ( have_posts() ): the_post(); ?>
-        <article class="project_preview home_bloc">
-            <div class="home_bloc_contener">
-                <div class="home_bloc_contener_text" style="background-image:url(<?= the_post_thumbnail_url() ?>)">
-                    <h2><?php the_title(); ?></h2>
-                    <div><?php the_excerpt(); ?></div>
-                    <p><a href="<?php the_permalink() ?>" class="post_link">read more</a><a href="#"
-                            class="true_link">see the projetc</a></p>
-                </div>
-                <div class="home_bloc_contener_img">
-                    <?php
-                                if ( has_post_thumbnail() ) { // Vérifies qu'une miniature est associée à l'article.
-                                    the_post_thumbnail(array(500,500));
-                                }
-                                ?>
-                </div>
-
+<main role="main">
+    <div class="main_section menu <?php the_field('classe'); ?>">
+        <div class="project">
+            <div class="project_content">
+                    <article class="project_article">
+                        <div>
+                            <h2 role="heading" aria-level="2"><?php the_title(); ?></h2>
+                            <p><?php the_content(); ?></p>
+                            <p class="project_cta_contener about_p">
+                                <label for="checkbox_chat" class="true_link cta">Get in tuch</label>
+                            </p>
+                        </div>
+                        <div>
+                            <div class="project_palette">
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/img/moi.png">
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/img/moi5.png">
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/img/moi2.png">
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/img/moi3.png">
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/img/moi4.png">
+                            </div>
+                        </div>
+                    </article>
             </div>
-        </article>
-        <?php endwhile; endif;?>
-
+        </div>
     </div>
 </main>
-
+<?php endwhile; endif;?>
 
 
 

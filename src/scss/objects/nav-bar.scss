@@ -1,0 +1,41 @@
+.nav_bar_contener {
+    position: fixed;
+    bottom: 3rem;
+    width: 100%;
+    height: 1.75rem;
+}
+
+.nav_bar {
+    position: relative;
+    right: -1.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25rem;
+    height: 100%;
+    margin: auto;
+}
+
+.nav_bar_button {
+    position: absolute;
+    left: .5rem;
+    width: 4rem;
+    height: 1.15rem;
+    margin-left: 1rem ;
+}
+
+
+@media screen and (max-width: 650px) {
+    .nav_bar_contener {
+        bottom: 6rem;
+    }
+
+    .nav_bar {
+        width: 60%;
+    }
+
+    .nav_bar_button {
+        width: 20%;
+        margin-left: 2%;
+    }
+}

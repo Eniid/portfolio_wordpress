@@ -1,0 +1,95 @@
+
+
+.project_content {
+    width: 50%;
+    max-width: 600px;
+    margin: 10rem auto;
+}
+
+.project_content h2{
+    margin: 3rem auto;
+}
+
+
+.project_pics {
+    border-left: 1px solid #dad9d9;
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow: auto;
+    /* border-radius: 1rem; */
+    margin: 2rem 0 2rem 0;
+}
+
+.project .project_cta_contener {
+    margin-top: 3rem;
+}
+
+.project_article {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.project_button {
+    display: block;
+    background: linear-gradient(45deg, #4E5F79, #35395A);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+
+@media screen and (max-width: 340px) {
+
+    .home_bloc_contener {
+        margin: auto 1rem;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .project div p {
+        width: 80%;
+    }
+
+    .project_content {
+        width: 60%;
+        max-width: 600px;
+        margin: 5rem auto;
+        padding: rem;
+    }
+
+    h2 {
+        white-space: pre-wrap;
+    }
+
+    h3.bounce {
+        font-size: 0.5rem;
+
+    }
+
+
+}
+
+
+
+.project .about_p {
+    white-space: nowrap;
+
+}
+
+.ins .cta {
+    color: rgb(0, 0, 0) !important;
+    border-color: rgb(0, 0, 0) !important;
+}

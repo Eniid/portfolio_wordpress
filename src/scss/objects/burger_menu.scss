@@ -18,8 +18,12 @@
     font-size: 1em;
     padding: 2em;
     background : url(burgeur.svg) no-repeat;
+    background-size: 1.6rem;
     position: relative;
-    right: 5px;
+    right: -.3rem;
+    top: 2rem;
+    transition: transform .3s ease-out;
+
 }
 
 .burger:checked:before
@@ -29,8 +33,12 @@
     font-size: 1em;
     padding: 2em;
     background : url(../img/close.svg) no-repeat;
+    background-size: 1.3rem;
     position: relative;
-    right: 5px;
+    right: -11rem;
+    top: 0rem;
+    transition: transform .3s ease-out;
+
 }
 
 .menu
@@ -55,6 +63,36 @@
     transform: translateX(-1rem);
 }
 
-.main_menu {
-    transform: translateX(0);
+.burger:checked ~ main .nav_bar {
+    transform: translateX(180px);
 }
+
+.switch {
+    opacity: 0;
+    transition: transform .3s ease-out;
+}
+
+.burger:checked ~ .switch {
+    opacity: 1;
+    transition: transform .3s ease-out;
+}
+
+.burger:checked ~ .menu-main-container .menu {
+    z-index: 1000;
+    width: 180px;
+    transition: 5s;
+}
+
+
+
+
+
+@media screen and (min-width: 640px) {
+
+    .main_menu {
+        transform: translateX(0);
+    }
+    
+
+}
+

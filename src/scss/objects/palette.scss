@@ -1,0 +1,42 @@
+.project_palette {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+
+.project_palette div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: .5rem;
+    margin: 0 3rem 1rem 0;
+}
+
+.project_palette img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    margin: 0 3rem 1rem 0;
+}
+
+
+
+
+
+//* Supression de la palette en mobile
+
+@media screen and (max-width: 640px) {
+    .project_palette {
+        position: absolute !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+    }
+}

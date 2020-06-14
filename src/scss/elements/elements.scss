@@ -11,7 +11,11 @@ body {
     background: $mcg;
     @include tfl;
     font-size: 15px;
+    overflow-y: hidden;
 }
+
+
+
 
 h1{
     color: $mcl;
@@ -38,7 +42,7 @@ h3 {
 }
 
 p {
-    margin: 1rem 0rem;
+    margin: 1rem 0 0 0;
     line-height: 1.4rem;
     width: 60%;
     max-width: 700px;
@@ -48,17 +52,11 @@ p {
 a {
     color: black;
     text-decoration: none;
-    background: linear-gradient(180deg,transparent 0.9em,$mclt 0,$mclt);
-    transition: 1s;
+    //background: linear-gradient(180deg,transparent 0.9em,$mclt 0,$mclt);
 }
 
 a:hover {
-    color: black;
+    //color: black;
     text-decoration: none;
-    background: linear-gradient(180deg,transparent .9em,$mcl 0,$mcl);
-    transition: 1s;
-}
-
-img {
-    margin: 1rem 5rem;
+    //background: linear-gradient(180deg,transparent .9em,$mcl 0,$mcl);
 }

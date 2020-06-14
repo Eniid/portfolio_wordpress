@@ -1,0 +1,30 @@
+//* PP
+.nav_profile-pic {
+    margin: 5vh 3.5rem;
+    width: 7rem;
+    height: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .nav_profile-pic {
+        margin: 5vh 4.5rem;
+        width: 5rem;
+    }
+}
+
+.sub-menu {
+    position: relative;
+    top: 1rem;
+}
+
+.menu-main-container li {
+    padding: 1em;
+    margin: .75rem 0 0 0; 
+}
+
+.sub-menu li {
+    padding: 1em 0 1rem 1rem;
+    margin-top: .2rem;
+    width: 150px;
+}
+

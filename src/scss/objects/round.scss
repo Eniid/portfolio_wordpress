@@ -1,0 +1,137 @@
+.round {
+    position: absolute;
+}
+
+.round_group_1 {
+    top: 18vh;
+    left: 13%;
+}
+
+.round_group_2 {
+	bottom: 5vh;
+	left: 5%;
+}
+
+.round_group_3 {
+	top: 5vh;
+    right: 10%;
+}
+
+.round_group_5 {
+	bottom: 16vh;
+    right: 20%;
+}
+
+.round_group_4 {
+	top: 20vh;
+	right: 40%
+}
+
+
+.rond_1 {
+    top: 3rem;
+    right: 2rem;
+    width: 3rem;
+    animation: float 6s ease-in-out infinite;
+
+    }
+
+.rond_2 {
+	animation: float 7s ease-in-out infinite;
+	width: 3.5rem;
+
+}
+
+.rond_3 {
+	animation: float2 8s ease-in-out infinite;
+	width: 3rem;
+}
+
+.rond_4 {
+	position: relative;
+    top: -2.5rem;
+	left: -1rem;
+	width: 3.5rem;
+	animation: float 7s ease-in-out infinite;
+}
+
+
+.rond_5 {
+	animation: float 8s ease-in-out infinite;
+	position: relative;
+    top: 2.5rem;
+	left: 1rem;
+	width: 3.5rem;
+}
+
+.rond_6 {
+	width: 3rem;
+	animation: float2 9s ease-in-out infinite;
+}
+
+
+.rond_7 {
+	animation: float 8s ease-in-out infinite;
+	position: relative;
+    top: 3rem;
+	width: 3.5rem;
+}
+
+.rond_8 {
+	animation: float 6s ease-in-out infinite;
+	position: relative;
+	width: 3rem;
+    top: -2.5rem;
+	left: 1rem;
+}
+
+.rond_9 {
+	animation: float 8s ease-in-out infinite;
+	position: relative;
+    top: 3rem;
+	width: 3.5rem;
+}
+
+.rond_10 {
+	animation: float2 6s ease-in-out infinite;
+	position: relative;
+    top: -2.5rem;
+	left: 1rem;
+	width: 3.5rem;
+}
+
+
+.tlround_1 {
+	top: -1rem;
+    left: -1rem;
+	z-index: -100000000;
+	animation: float 7s ease-in-out infinite;
+}
+
+
+@keyframes float {
+	0% {
+		transform: translate(0px, 0px);
+
+	}
+	50% {
+		transform: translate(-20px, -20px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+
+@keyframes float2 {
+	0% {
+		transform: translate(0px, 0px);
+
+	}
+	50% {
+		transform: translate(-20px, 0px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}

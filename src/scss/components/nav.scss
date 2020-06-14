@@ -1,18 +1,15 @@
+
 .menu-main-container {
-    color: #fff;
+    margin-top: 7vh;
     padding-left: 3em;
-    margin-top: 300px;
+    color: #fff;
     text-transform: uppercase;
 }
 
-.menu-main-container li {
-    padding: 1em;
-}
-
 .menu-main-container a {
-    color: #fff;
     padding: 1em;
     background: none;
+    color: #fff;
 }
 
 .menu-main-container a:hover {
@@ -21,19 +18,30 @@
 }
 
 
-.menu-main-container .menu-item-19 {
+.menu-main-container .current-menu-item {
     background-color: #fff;
-    border-radius: 1rem;
-    padding-bottom: .5rem;
-    padding-right: 15rem;
-    padding-left: 2rem;
+    border-radius: 0.75rem 0 0 0.75rem;
     color: #000;
 }
 
-.menu-main-container .menu-item-19:hover{
-    background-color: #fff;
-    border-radius: 1rem;
-    padding-right: 15rem;
-    padding-left: 2rem;
+.menu-main-container .current-menu-item a{
     color: #000;
+}
+
+.menu-main-container .current-menu-item:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.sub-menu li {
+    text-transform: lowercase;
+    padding: 1em 0 1rem 1rem;
+    margin-top: .2rem;
+    width: 150px;
+}
+
+
+.menu.ins a {
+    color: black;
 }
