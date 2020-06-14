@@ -74,12 +74,13 @@
     <div class="nav_bar_contener">
         <div class="nav_bar">
             <div class="nav_bar_button"></div>
-            <div class="nav_bar_link_contner"><a href="#pres" class="nav_bar_link">°</a></div>
+            <div class="nav_bar_link_contner"><a href="#pres" class="nav_bar_link">  <div class="infobulle">Home</div>
+            &nbsp;</a></div>
             <?php 
                 if ( have_posts() ): while ( have_posts() ): the_post(); ?>
-            <div class="nav_bar_link_contner"><a href="#<?php the_field('classe'); ?>" class="nav_bar_link">°</a></div> 
+            <div class="nav_bar_link_contner"><a href="#<?php the_field('classe'); ?>" class="nav_bar_link"><div class="infobulle"><?php the_title(); ?></div>&nbsp;</a></div> 
             <?php endwhile; endif;?>
-            <div class="nav_bar_link_contner"><a href="#project" class="nav_bar_link">°</a></div>
+            <div class="nav_bar_link_contner"><a href="#project" class="nav_bar_link"><div class="infobulle">About me</div>&nbsp;</a></div>
         </div>
     </div>
 </main>
