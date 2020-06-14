@@ -26,8 +26,6 @@ document.querySelectorAll(".child").forEach(element => { // On boucle sur tous l
     const positionDeLElement = element.offsetLeft; // Puis la position de l'élément .annim
     if (scrollDeLaPage >= positionDeLElement) { // Si on est plus bas que l'élément en bas + 200px (à modifier si tu veux que l'event se passe plus tôt)
         document.body.style.background = element.getAttribute("data-bg")
-        document.querySelector(".nav_bar").style.background = element.getAttribute("data-bg-2")
-        document.querySelector(".nav_bar_button").style.background = element.getAttribute("data-bg")
     }
 })
 }, false)
@@ -46,9 +44,11 @@ document.querySelectorAll(".child").forEach(element => { // On boucle sur tous l
             i) => { // On boucle sur tous les éléments qui ont la class annim
                 const positionDeLElement = element.offsetLeft; // Puis la position de l'élément .annim
                 element.setAttribute("data-oi", i)
-                if (scrollDeLaPage >= positionDeLElement && scrollDeLaPage <= positionDeLElement + element
-                    .offsetWidth
+                if (scrollDeLaPage >= positionDeLElement -20 && scrollDeLaPage <= positionDeLElement + element
+                    .offsetWidth +20 
                     ) { // Si on est plus bas que l'élément en bas + 200px (à modifier si tu veux que l'event se passe plus tôt)
+                    document.querySelector(".nav_bar").style.background = element.getAttribute("data-bg-2")
+                    document.querySelector(".nav_bar_button").style.background = element.getAttribute("data-bg")
                     document.body.style.background = element.getAttribute("data-bg")
                     document.querySelector(".menu").className = "menu"
                     document.querySelector(".menu").classList.add(element.getAttribute("data-color"))

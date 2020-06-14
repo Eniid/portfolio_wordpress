@@ -16,7 +16,7 @@ if ( have_posts() ): while ( have_posts() ): the_post(); ?>
                             <h2 role="heading" aria-level="2"><?php the_title(); ?></h2>
                             <p><?php the_content(); ?></p>
                             <p class="project_cta_contener about_p">
-                                <label for="checkbox_chat" class="true_link cta">Get in tuch</label>
+                                <label for="checkbox_chat" class="true_link cta">Get in tuch</label><a href="http://localhost:8888/wordpress/wordpress/#cv" class="true_link cta">See my projects</a>
                             </p>
                         </div>
                         <div>

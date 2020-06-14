@@ -17,7 +17,8 @@
                                     <p><?php the_content(); ?></p>
                                     <p class="project_cta_contener"><a href="<?php the_field('web'); ?>"
                             class="true_link cta" style="color:<?php the_field('colord'); ?>; border-color:<?php the_field('colord'); ?>" target="_blank" rel="noopener noreferrer">The project</a><a href="<?php the_field('github'); ?>"
-                            class="true_link cta" style="color:<?php the_field('colord'); ?>; border-color:<?php the_field('colord'); ?>" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+                            class="true_link cta" style="color:<?php the_field('colord'); ?>; border-color:<?php the_field('colord'); ?>" target="_blank" rel="noopener noreferrer">GitHub</a><a href="http://portfolio.celine-everaert.com/about-me/"
+                            class="true_link cta" style="color:<?php the_field('colord'); ?>; border-color:<?php the_field('colord'); ?>" target="_blank" rel="noopener noreferrer">Read about me</a></p>
                                 </div>
                                 <div>
                                     <div class="project_palette">
